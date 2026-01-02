@@ -24,11 +24,11 @@ dependencyResolutionManagement {
 
 ```kotlin
   dependencies {
-      implementation("com.github.zkmopro:NoirKotlin:Tag")
+      implementation("com.github.zkmopro:NoirKotlin:v1.0.0-beta.8")
   }
 ```
 
-Replace `Tag` with the desired release version, e.g. `v0.1.0`. See the [JitPack page](https://jitpack.io/#zkmopro/NoirKotlin) for available versions.
+Checkout the [JitPack page](https://jitpack.io/#zkmopro/NoirKotlin) for more available versions.
 
 **Note:** If you're using an Android template from `mopro create`, comment out these UniFFI dependencies in your build file to prevent duplicate class errors.
 
